@@ -1,0 +1,199 @@
+#details{
+    width: 1300px;
+    height: 500px;
+    margin: auto;
+    background: #F2F2F2;
+    padding-top: 30px;
+
+}
+#details .step{
+    height: 120px;
+    background: white;
+    margin: 0px 30px;
+}
+#details .tip{
+    width: 1220px;
+    height: 60px;
+    margin: auto;
+    color: #8a6d3b;
+    background: #fcf8e3;
+    padding-left: 20px;
+    border: 1px solid #faebcc;
+}
+#details .tip span {
+    display: block;
+    float: left;
+    height: 30px;
+    margin-top: 20px;
+    line-height: 30px;
+
+}
+#details .tip  a{
+    display: block;
+    height: 30px;
+    float: left;
+    width:80px;
+    background: #c13e2c;
+    margin-top: 20px;
+    margin-left: 5px;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+    border-radius: 2px ;
+    cursor: pointer;
+
+}
+
+#details  .list{
+    width: 1220px;
+    height: 175px;
+    margin:20px auto;
+    color: #8a6d3b;
+    background: white;
+
+    border: 1px solid #faebcc;
+}
+
+#list {
+    width: 1220px;
+    text-align: center;
+    border-spacing: 0;
+    table-layout: fixed;
+    margin: 0px ;
+}
+
+#list>tbody>tr {
+    border: 1px solid #ccc;
+
+    height: 87px;
+}
+
+#list>tbody>tr>td {
+    margin-right: 30px;
+    width: 20%;
+}
+
+
+#list>tbody>tr.a1{
+    height:50px ;
+    background: #F2F2F2;
+    padding-left: 30px;
+
+}
+#list>tbody>tr>td.btn{
+    padding-left: 40px;
+}
+
+#list>tbody>tr>td.del{
+    cursor: pointer;
+}
+
+#list>tbody>tr>td>button {
+    height:32px;
+    width: 35px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid #cccccc;
+}
+
+#list>tbody>tr>td>button,
+#list>tbody>tr>td>input {
+    border: 1px solid #cccccc;
+    float: left;
+    background: white;
+}
+
+.reduce {
+    margin-left: 30px;
+}
+
+.num {
+    text-align: center;
+}
+
+#list>tbody>tr>td>input {
+    width: 40px;
+    height: 30px;
+}
+#list>tbody>tr td  input.c2{
+    width: 15px;
+    height: 15px;
+}
+#list>tbody>tr.a1 td:nth-last-of-type(1){
+    width:80px;
+
+}
+#list>tbody>tr:nth-of-type(2) td{
+    height: 20px;
+}
+.total{
+    color: red;
+    font-weight: 600;
+}
+
+.smallPic {
+    width: 50px;
+    height:50px;
+    float: left;
+}
+
+#details  .choose{
+    width: 1220px;
+    height: 120px;
+    margin:0 auto;
+    color:white;
+
+    border: 1px solid #faebcc;
+    font-size: 14px;
+    color: #333333;
+}
+#details .choose a{
+   padding-left: 50px;
+    color: #9f979f;
+}
+#details .choose a:hover{
+    color: black;
+}
+
+#details .choose div{
+    width:400px;
+    float: left;
+    padding:3px;
+}
+#details .choose div:nth-of-type(1) input{
+    width: 30px;
+    height: 30px;
+}
+#details .choose div:nth-of-type(2) p{
+    display: block;
+    background: #f39404;
+    width:50px ;
+    text-align: center;
+    border-radius: 2px;
+    color: white;
+    float: left;
+}
+#details .choose div:nth-of-type(2)>span{
+    display: block;
+
+    width:150px ;
+    text-align: left;
+    color: #333333;
+
+}
+
+#details .choose div:nth-of-type(3)> p{
+    display: block;
+    width:150px ;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    background: #fc6628;
+    float: right;
+    border-radius: 5px ;
+    cursor: pointer;
+
+}
+
+

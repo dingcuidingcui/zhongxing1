@@ -1,0 +1,437 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+
+
+img{
+    display: block;
+}
+ol,ul,li{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#title{
+    height: 50px;
+    background: #F2F2F2;
+    margin: auto;
+}
+#title  a{
+    padding-left: 50px;
+    color: #787878;
+    font-size: 14px;
+    line-height: 50px;
+}
+
+#title a:hover{
+    color: black;
+}
+#title span{
+    color: #777777;
+    padding-left: 500px;
+}
+#title span span.aa{
+    color: red;
+    padding-left: 0px;
+    cursor: pointer;
+}
+
+
+header{
+    height:83px;
+    width:1300px;
+    margin: auto;
+    position: relative;
+}
+ #logo{
+    height:35px ;
+    margin-top: 20px;
+
+    float: left;
+}
+
+header .search{
+    height:40px ;
+    width: 200px;
+    float: right;
+    margin-top: 20px;
+    border: 1px solid #b8b8b8;
+
+
+}
+header .search img {
+    float: right;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+}
+
+
+header ul {
+    height:83px ;
+    width: 700px;
+    float: left;
+    margin-left: 100px;
+}
+
+header ul>li{
+    float: left;
+
+
+}
+header ul>li>a{
+    display: block;
+    width: 90px;
+    height: 83px;
+    color: black;
+    text-align: center;
+    margin-left: 25px;
+    line-height: 83px;
+
+}
+header ul>li>a:hover{
+     color:blue;
+ }
+header ul>li.AXON{
+    position: relative;
+
+}
+
+header ul>li.AXON .menu {
+   /* width: 1200px;*/
+    height: 280px;
+    display: none;
+     position: absolute;
+    left: -300px;
+    z-index: 1000;
+    background: white;
+}
+
+header ul>li.AXON .menu ol{
+    width: 1000px;
+    height: 280px;
+    margin-left: 100px;
+
+
+}
+header ul>li.AXON .menu ol li{
+    float: left;
+    margin: 20px;
+    border-right: 1px #b8b8b8 solid;
+
+}
+
+header ul>li.AXON .menu ol li a{
+    display: block;
+    width: 180px;
+    height: 180px;
+    margin-top: 5px;
+    transition: all 1s;
+}
+header ul>li.AXON .menu ol li a img{
+    width: 150px;
+    height: 150px;
+}
+header ul>li.AXON .menu ol li a:hover{
+    margin-top: 5px;
+    transition: all 1s;
+    margin-top: 0;
+}
+header ul>li.AXON .menu ol li span{
+    display: block;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    padding-left:20px ;
+    color: #b8b8b8;
+}
+
+header ul>li.AXON .menu ol li span:nth-of-type(2){
+    font-weight: bold;
+    color: red;
+}
+
+header ul>li.BLADE{
+    position: relative;
+}
+
+header ul>li.BLADE .menu1 {
+    width: 1100px;
+    height: 280px;
+    display: none;
+    position: absolute;
+    z-index: 1001;
+    background: white;
+    left: -415px;
+
+}
+
+header ul>li.BLADE .menu1 ol{
+    width:1000px;
+    height: 290px;
+    margin-left: 100px;
+
+
+}
+header ul>li.BLADE .menu1 ol li{
+    float: left;
+    margin: 20px;
+    border-right: 1px #b8b8b8 solid;
+
+}
+
+header ul>li.BLADE .menu1 ol li a{
+    display: block;
+    width: 180px;
+    height: 180px;
+    margin-top: 5px;
+    transition: all 1s;
+}
+header ul>li.BLADE .menu1 ol li a img{
+    width: 150px;
+    height: 150px;
+}
+header ul>li.BLADE .menu1 ol li a:hover{
+    margin-top: 5px;
+    transition: all 1s;
+    margin-top: 0;
+}
+header ul>li.BLADE .menu1 ol li span{
+    display: block;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    padding-left:20px ;
+    color: #b8b8b8;
+}
+
+header ul>li.BLADE .menu1 ol li span:nth-of-type(2){
+    font-weight: bold;
+    color: red;
+}
+
+
+footer{
+    width: 1300px;
+    height: 600px;
+    margin: 0 auto;
+    border-bottom: 1px #cccccc solid;
+    background: white;
+
+}
+footer ul{
+    width: 1243px;
+    height:150px ;
+    margin:0 auto;
+    margin-left: 14px;
+
+    border-bottom: 1px solid #cccccc;
+}
+footer ul li{
+    width: 300px;
+    height: 150px;
+   margin: 0 5px;
+    float: left;
+    text-align: center;
+    line-height: 150px;
+}
+footer ul li img{
+   float: left;
+    margin: 50px 0px 50px 25px;
+}
+footer ul li span{
+
+    margin-right: 60px;
+}
+
+footer .center{
+    width: 1300px;
+    height:270px ;
+
+}
+
+footer .links{
+    width: 1000px;
+    height: 270px;
+    float: left;
+
+}
+
+footer .links ol {
+    width: 190px;
+    height: 270px;
+
+    float: left;margin: 5px;
+    text-align: center;
+}
+footer .links ol li{
+    margin: 20px 0px;
+
+}
+footer .links ol li a:hover{
+    color: red;
+}
+
+footer .links ol li a{
+    color:#999999;
+    font-size: 12px;
+}
+footer .links ol li h6 {
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+footer .hotline{
+    width:300px ;
+    height:300px ;
+    float: right;
+    cursor: pointer;
+
+}
+footer .hotline p {
+    width:100px;
+    height: 30px;
+    background: royalblue;
+    margin: 50px 50px 20px 50px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 3px;
+}
+footer .hotline p img{
+    float: left;
+    margin-top:9px;
+    margin-left: 5px;
+
+}
+footer .hotline span{
+    width:160px;
+    height: 30px;
+    margin: 0px 50px;
+    color:#999999;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 3px;
+    line-height: 30px;
+}
+
+footer .zhongxing{
+    width: 1300px;
+    height:150px;
+    border-top: 1px #cccccc solid;
+    padding-top: 30px;
+}
+footer .zhongxing>ol {
+    width: 500px;
+    height: 30px;
+
+    margin-left: 450px;
+    text-align: center;
+}
+
+footer .zhongxing>ol>li{
+     height:30px ;
+    float: left;
+    font-size: 14px;
+    margin-left: 10px;
+
+}
+footer .zhongxing p{
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 8px;
+    color: #999999;
+}
+
+
+#toolbar {
+    width:45px;
+    height: 150px;
+    background:white;
+    position: fixed;
+    bottom: 100px;
+    right: 0px;
+}
+#toolbar a{
+    display: block;
+    width: 45px;
+    height: 45px;
+    margin-bottom: 2px;
+    background: cornflowerblue;
+    position :relative;
+
+}
+
+#toolbar a span {
+    width: 45px;
+    height: 0px;
+    background: #cccccc;
+    margin: auto;
+    display: none;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    z-index: 1000;
+    top:43px;
+}
+
+#toolbar a span p{
+    display: block;
+    font-size: 36px;
+}
+#toolbar a i{
+    width: 40px;
+    height: 40px;
+    left: 2px;
+    top: 2px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    font-size: 36px;
+    line-height: 40px;
+    color: white;
+    position: absolute;
+}
+#toolbar a img{
+    position: absolute;
+    left: 0px;
+    top:60px;
+    width: 0px;
+    height:0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

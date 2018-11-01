@@ -1,0 +1,554 @@
+
+
+.show{
+    width:1300px;
+    height:500px;
+    margin:auto;
+    position:relative;
+    overflow:hidden;
+}
+.show .imgBox{
+    width: 100%;
+    height:500px;
+    background:#ccc;
+    position:absolute;
+    overflow: hidden;
+
+}
+
+.show .imgBox img{
+    display:block;
+    float:left;
+    height:500px;
+    width: 1300px;
+
+
+}
+
+.show  ul{
+    height: 30px;
+    width: 200px;
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+}
+.show  ul li {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: #cccccc;
+    float: left;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.show  ul li.active{
+    background: black;
+    opacity: 0.7;
+}
+
+.show .list {
+    width: 300px;
+    height:500px ;
+    background:#c9ccd1 ;
+    position: absolute;
+    z-index: 30;
+    left: 100px;
+
+}
+
+.show .list div {
+    width:300px ;
+    height:80px;
+    position: relative;
+}
+
+.show .list div:hover{
+    background:white;
+}
+.show .list p {
+    display: block;
+    padding: 15px 0px;
+    padding-left: 30px;
+    height: 18px;
+    font-size: 16px;
+    color: #333333;
+
+
+}
+.show .list span{
+    padding-left: 30px;
+    font-size: 14px;
+    color:#999999;
+}
+
+.show .list .exhibition{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    background: white;
+    left: 300px;
+    top:0px;
+    display: none;
+}
+
+.show .list .exhibition dl{
+    width: 150px;
+    height:80px;
+
+    margin-left: 20px;
+    margin-top: 10px;
+    float: left;
+}
+.show .list .exhibition dl dt{
+    float: left;
+}
+.show .list .exhibition dl dt img{
+    width: 50px;
+    height: 50px;
+}
+.show .list .exhibition dl dd{
+    width: 70px;
+    height: 30px;
+
+    float: left;
+    margin-top: 10px;
+    color: #b8b8b8;
+}
+.show .list div:hover .exhibition{
+   display: block;
+}
+
+
+
+
+#today{
+    height: 430px;
+    width: 1300px;
+    margin: auto;
+
+
+
+}
+#today .news{
+    height: 80px;
+    width: 1220px;
+    margin: auto;
+    padding:20px 40px ;
+    line-height: 80px;
+}
+#today .news span:nth-of-type(1) {
+    font-size: 24px;
+}
+#today .buy{
+    width: 1300px;
+    height: 300px;
+    margin: auto;
+}
+#today .buy img{
+    width: 640px;
+    height:280px;
+    float: left;
+    margin: 5px 0px;
+    transition: all 0.5s;
+}
+#today .buy img:nth-of-type(1){
+     float: left;
+ }
+#today .buy img:nth-of-type(2){
+    float: right;
+}
+#today .buy img:hover{
+    cursor: pointer;
+    margin-top: 0px;
+    box-shadow: #b8b8b8 8px 8px 8px;
+    transition: all 0.5s;
+}
+/**手机专区*/
+ #Phones{
+     height: 650px;
+     width: 1300px;
+     margin: auto;
+     background: #F2F2F2;
+
+ }
+ #Phones .news{
+     height: 80px;
+     width: 1220px;
+     margin: auto;
+     padding:20px 40px ;
+     line-height: 80px;
+ }
+ #Phones .news span:nth-of-type(1) {
+     font-size: 24px;
+ }
+
+ #Phones .left {
+     width:300px;
+     height:500px;
+     margin-left:40px;
+
+     float: left;
+ }
+ #Phones .left img{
+     width: 300px;
+     height: 475px;
+     margin-top:5px;
+     transition: all .5s;
+     cursor: pointer;
+
+ }
+ #Phones .left img:hover{
+     margin-top: 0px;
+     box-shadow: #b8b8b8 8px 8px 8px;
+     transition: all .5s;
+ }
+
+ #Phones .right{
+     width:900px;
+     height: 500px;
+     float: right;
+     margin-right: 40px;
+     overflow: hidden;
+ }
+
+#Phones .right .top{
+    height: 250px;
+    width: 120%;
+    margin-bottom: 3px;
+}
+#Phones .right .top dl{
+     width:290px ;
+     height:220px ;
+     background: white;
+     float: left;
+     margin-top:5px;
+     margin-right:20px;
+     text-align: center;
+    margin-bottom: 10px;
+     transition: all .5s;
+ }
+ #Phones .right dl:hover{
+
+     box-shadow: #b8b8b8 8px 8px 8px;
+     transition: all .5s;
+     margin-top:0px;
+ }
+ #Phones .right dl dt img{
+     width: 240px;
+     height: 150px;
+     margin: 10px 20px;
+     cursor: pointer;
+
+ }
+ #Phones .right dl dd h5{
+     color: red;
+
+ }
+
+#Phones .right .top1{
+    height: 250px;
+    background: blueviolet;
+    width: 120%;
+    margin-bottom: 3px;
+}
+#Phones .right .top1 dl{
+    width:290px ;
+    height:240px ;
+    background:red;
+    float: left;
+    margin-top:6px;
+    margin-right: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    transition: all .5s;
+
+}
+#Phones .right .top1 dl:hover {
+
+    box-shadow: #b8b8b8 5px 5px 5px;
+    transition: all .5s;
+    margin-top: 0px;
+
+}
+
+#Phones .right .top1 dl dt img{
+    width: 240px;
+    height: 150px;
+    margin: 10px 20px;
+
+}
+#Phones .right .top1 dl dd h5{
+    color: red;
+
+}
+
+
+/*配件专区*/
+
+
+#parts{
+    width: 1300px;
+    height: 450px;
+    background:#F2F2F2;
+    margin:auto ;
+}
+
+#parts .part-1{
+    width: 1300px;
+    height: 120px;
+}
+
+#parts .part-1 .news{
+    height: 80px;
+    width: 920px;
+    float: left;
+    padding:20px 40px ;
+    line-height: 80px;
+
+}
+#parts .part-1 .news>span:nth-of-type(1) {
+    font-size: 24px;
+}
+
+#parts .part-1>ul{
+    width: 300px;
+    height: 120px;
+    float: right;
+
+
+}
+
+#parts .part-1>ul>li {
+    float: left;
+    width:70px;
+    height: 75px;
+    margin-left: 20px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+
+    padding-top:40px;
+
+}
+
+#parts .part-1>ul>li.p1 {
+    border-bottom: 5px solid red;
+    color: red;
+    position: relative;
+}
+
+
+
+/*part-2*/
+#parts .part-1>ul li.p1 .part-2{
+    width: 1300px;
+    height: 300px;
+    display: block;
+    position: absolute;
+    top:120px;
+    left: -1020px;
+    z-index: 400;
+
+}
+
+#parts .part-1>ul li.p1 .part-2 dl{
+    width: 280px;
+    height: 280px;
+    float: left;
+    background: white;
+    margin: 10px 20px;
+    transition: all .5s;
+
+}
+
+#parts .part-1>ul li.p1 .part-2 dl:hover{
+    margin-top: 5px;
+    transition: all .5s;
+    box-shadow: #b8b8b8 5px 5px 5px;
+}
+#parts .part-1>ul li.p1 .part-2 dl dt img{
+    width: 250px;
+    height: 230px;
+}
+#parts .part-1>ul li.p1 .part-2 dl dd{
+    color: black;
+    font-size: 16px;
+}
+#parts .part-1>ul li.p1 .part-2 dl dd h5{
+    color: red;
+    font-size:16px;
+}
+
+/*part-3*/
+
+#parts .part-1>ul>li.p2{
+    border-bottom: 5px solid red;
+    color: red;
+    position: relative;
+}
+
+#parts .part-1>ul li .part-3{
+    width: 1300px;
+    height: 300px;
+    display: none;
+    position: absolute;
+    top:120px;
+    z-index: 200;
+    left: -1110px;
+
+
+}
+
+#parts .part-1>ul li .part-3 dl{
+    width: 280px;
+    height: 280px;
+    float: left;
+    background: white;
+    margin: 10px 20px;
+    transition: all .5s;
+
+}
+
+#parts .part-1>ul li .part-3 dl:hover{
+    margin-top: 5px;
+    transition: all .5s;
+    box-shadow: #b8b8b8 5px 5px 5px;
+}
+#parts .part-1>ul li .part-3 dl dt img{
+    width: 250px;
+    height: 230px;
+}
+#parts .part-1>ul li .part-3 dl dd{
+    color: black;
+    font-size: 16px;
+}
+#parts .part-1>ul li .part-3 dl dd h5{
+    color: red;
+    font-size:16px;
+}
+
+
+
+/*part-4*/
+
+  #parts .part-1>ul>li.p3{
+      border-bottom: 5px solid red;
+      color: red;
+      position: relative;
+  }
+
+#parts .part-1>ul li .part-4{
+    width: 1300px;
+    height: 300px;
+    display: none;
+    position: absolute;
+    top:120px;
+    z-index: 300;
+    left: -1200px;
+
+
+}
+
+#parts .part-1>ul li .part-4 dl{
+    width: 280px;
+    height: 280px;
+    float: left;
+    background: white;
+    margin: 10px 20px;
+    transition: all .5s;
+
+}
+
+#parts .part-1>ul li .part-4 dl:hover{
+    margin-top: 5px;
+    transition: all .5s;
+    box-shadow: #b8b8b8 5px 5px 5px;
+}
+#parts .part-1>ul li .part-4 dl dt img{
+    width: 250px;
+    height: 230px;
+}
+#parts .part-1>ul li .part-4 dl dd{
+    color: black;
+    font-size: 16px;
+}
+#parts .part-1>ul li .part-4 dl dd h5{
+    color: red;
+    font-size:16px;
+}
+
+
+
+/*智能硬件*/
+#brain{
+    width: 1300px;
+    height:560px;
+    margin: auto;
+    background: #F2F2F2;
+}
+#brain .news{
+    height: 80px;
+    width: 1220px;
+    margin: auto;
+    padding:20px 40px ;
+    line-height: 80px;
+}
+#brain .news span:nth-of-type(1) {
+    font-size: 24px;
+}
+
+#brain .hardware {
+    width: 1300px;
+    height:320px;
+}
+#brain .hardware dl{
+    width: 290px;
+    height: 300px;
+    float: left;
+    margin:10px 14px;
+    background: white;
+    transition: all .5s;
+    cursor: pointer;
+}
+#brain .hardware dl:hover{
+    margin-top: 0px;
+    box-shadow: #b8b8b8 8px 8px 8px;
+    transition: all .5s;
+}
+#brain .hardware dl dt{
+     width: 250px;
+     height: 250px;
+ }
+#brain .hardware dl dt img{
+    width: 250px;
+    height: 250px;
+    margin:5px 15px;
+}
+
+#brain .hardware dl dd{
+    text-align: center;
+}
+#brain .hardware dl dd h5{
+    text-align: center;
+    font-size: 14px;
+    padding-top: 10px;
+    color: red;
+}
+
+#brain .instantly {
+    width: 1243px;
+    height:120px ;
+    margin:0 auto;
+    margin-left: 14px;
+    cursor: pointer;
+}
+
+#brain .instantly img{
+    width: 1243px;
+    height: 120px;
+    margin: auto;
+}
+
+
+

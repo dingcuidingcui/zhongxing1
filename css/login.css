@@ -1,0 +1,137 @@
+#login{
+    width: 1300px;
+    height: 500px;
+    background: #f9f9f9;
+    margin: auto;
+}
+
+#login a{
+    padding-left: 50px;
+    color: #787878;
+    font-size: 14px;
+}
+#login a:hover{
+    color: black;
+}
+
+#login span{
+    display: block;
+    width: 200px;
+    float: right;
+}
+
+#login .left{
+    margin-top: 50px;
+    margin-left:150px;
+    width: 500px;
+    height: 400px;
+
+    float: left;
+}
+#login .left img{
+    padding: 20px 50px;
+}
+
+
+#login .right{
+    width: 500px;
+    height: 400px;
+
+    float: right;
+    margin-top: 50px;
+    margin-right: 80px;
+    position: relative;
+}
+#login .right h5{
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+#login .right input{
+    height: 35px;
+    width: 270px;
+    margin:5px auto;
+    margin-left:100px;
+    border-radius: 3px;
+    font-size: 14px;
+    padding-left: 10px;
+    color: #777777;
+    border: 1px solid #cccccc;
+
+}
+#login .right span{
+    display: block;
+    position: absolute;
+    width: 80px;
+    height: 25px;
+    background: navajowhite;
+    left:290px;
+    color: cyan;
+    text-align: center;
+    top: 155px;
+}
+#login .right .update{
+
+    padding-left:300px;
+    color: #b8b8b8;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+
+#login .right .information{
+    width: 170px;
+}
+
+#login .right .gain{
+    height:37px ;
+    background: white;
+    border-radius:5px;
+    margin-left: 10px;
+}
+
+#login .right .agree{
+    width: 16px;
+    height: 16px;
+    margin-top: 2px;
+    text-align: center;
+}
+#login .right .immediately{
+    width: 290px;
+    height:40px ;
+    background: #0186d1;
+    color: white;
+}
+
+#login .right .other{
+    margin-left: 100px;
+    color: #777777;
+}
+
+#login .right img{
+    display: block;
+    background: cyan;
+    float: left;
+    margin: 20px 20px;
+}
+#login .right img:nth-of-type(1){
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+#login .right a{
+    display: block;float: left;
+    width:120px;
+    height: 30px;
+    text-align: right;
+}
+#login .right  a:nth-of-type(1){
+    color: #46b8da;
+}
+
+
+
+
+
